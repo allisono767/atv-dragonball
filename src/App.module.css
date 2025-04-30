@@ -4,16 +4,6 @@
     margin-bottom: 8px;
 }
 
-.backgroundVideo{
-    position: absolute; /* fica fixo no fundo da tela */
-    inset: 0;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    z-index: -100; /* atrás de tudo */
-    opacity: 0.2; /* transparência para ver o conteúdo por cima */
-}
-
 
 .Inicio{
     font-family: Arial, Helvetica, sans-serif; 
@@ -59,33 +49,7 @@
     transform: scale(1.05);
  
 }
-.btAparecerB{
-    background-color: rgb(251, 192, 45);
-    color: rgba(0, 0, 0, 0.8);
-    border-radius: 8px;
-    padding: 0.3rem;
-    cursor: pointer;
-    transition: all 400ms ease-in-out;
-    transform: scale(0.9);
-    font-family: Arial, Helvetica, sans-serif; 
-}
 
-.btAparecerB:hover{
-    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.8); /* sombra mais intensa */
-    transform: scale(1.0);
-    background-color: rgb(228, 103, 20);
-}
-
-.btAparecerV{
-    background-color: rgb(251, 192, 45);
-    color: rgba(0, 0, 0, 0.8);
-    border-radius: 8px;
-    padding: 0.4rem;
-    cursor: pointer;
-    transition: all 400ms ease-in-out;
-    transform: scale(0.9);
-    font-family: Arial, Helvetica, sans-serif; 
-}
 
 
 
